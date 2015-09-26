@@ -4,7 +4,7 @@ author: "Iniyai"
 date: "26 September 2015"
 output: html_document
 ---
-
+# Steps performed in run_analysis.R
 1. Read the test and train data values into R, as dataframes.
 2. Similarly, read the subject and activity files of testing & training set into R.
 3. **STEP 1** Merge the test and training datasets of all the datafromes, namely, features, activity and subject.
