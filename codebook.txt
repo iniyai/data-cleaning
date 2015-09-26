@@ -1,0 +1,98 @@
+Human Activity: Mean for an activity for a subject
+
+ACTIVITY: The activity being performed. Activities performed are:
+
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+
+SUBJECT: Person performing the activity. Values(1:30) represent each person performing the activity.
+
+The following values’ mean are calculated for a subject while performing an activity.
+
+The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+A M between the variable and co-ordinate indicates the mean.
+A S between the variable and co-ordinate indicates the standard deviation.
+
+tBodyAcMX 
+tBodyAcMY 
+tBodyAcMZ
+tBodyAcSX 
+tBodyAcSY 
+tBodyAcSZ
+tGravAcMX
+tGravAcMY
+tGravAcMZ 
+tGravAcSX 
+tGravAcSY 
+tGravAcSZ 
+tGravAcJerkMX
+tGravAcJerkMY 
+tGravAcJerkMZ 
+tGravAcJerkSX 
+tGravAcJerkSY
+tGravAcJerkSZ 
+tBodyGyroMX
+tBodyGyroMY
+tBodyGyroMZ
+tBodyGyroSX 
+tBodyGyroSY 
+tBodyGyroSZ 
+tBodyGyroJerkMX
+tBodyGyroJerkMY
+tBodyGyroJerkMZ
+tBodyGyroJerkSX
+tBodyGyroJerkSY
+tBodyGyroJerkSZ
+tBodyAccMagM 
+tBodyAccMagS
+tGravityAccMagM 
+tGravityAccMagS 
+tBodyGyroJerkSYM 
+tBodyGyroJerkSYS 
+tBodyGyroMagM
+tBodyGyroMagS
+tBodyGyroJerkMagM 
+tBodyGyroJerkMagS
+fBodyAccMX
+fBodyAccSY
+fBodyAccSZ
+fBodyAccSX
+fBodyAccmFX
+fBodyAccmFY
+fBodyAccmFZ
+fBodyAccJerkMX
+fBodyAccJerkMY
+fBodyAccJerkMZ
+fBodyAccJerkSX
+fBodyAccJerkSY
+fBodyAccJerkSZ
+fBodyAccJerkmFX
+fBodyAccJerkmFY
+fBodyAccJerkmFZ
+fBodyGyroMX
+fBodyGyroMY
+fBodyGyroMZ
+fBodyGyroSX
+fBodyGyroSY
+fBodyGyroSZ
+fBodyGyromFX
+fBodyGyromFY
+fBodyGyromFZ
+fBodyAccMagM
+fBodyAccMagS
+fBodyGyroMagM
+fBodyGyroMagS
+fBodyGyroJerkMagM
+fBodyGyroJerkMagS
+	
+
